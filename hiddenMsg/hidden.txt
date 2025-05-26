@@ -1,0 +1,5 @@
+You can use this file to test Hiding Message from a file feature:
+
+This is a crucial HIDDEN message!
+"Pritam Chakraborty - 123/09 EF8"
+"Password to open Nudge_with_message.png: Pass1234*"
