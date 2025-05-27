@@ -15,7 +15,6 @@ import argparse
 from tkinter import messagebox
 import tkinter as tk
 
-# Add both root directory and src directory to Python path
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), 'src'))
 

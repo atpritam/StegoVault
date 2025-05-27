@@ -264,25 +264,25 @@ def create_parser():
         epilog="""
 Examples:
   # Hide a text message
-  python cli.py hide image.png "Secret message" -o output.png
+  python app.py cli hide image.png "Secret message" -o output.png
 
   # Hide message from file with password
-  python cli.py hide image.png message.txt -p prompt -o secret.png
+  python app.py cli hide image.png message.txt -p prompt -o secret.png
 
   # Extract encrypted/non-encrypted message 
-  python cli.py extract secret.png
+  python app.py cli extract secret.png
 
   # Extract encrypted message to output file
-  python cli.py extract secret.png -p prompt -o extracted.txt
+  python app.py cli extract secret.png -p prompt -o extracted.txt
   
   # Extract encrypted message with password
   python app.py cli extract image.png -p "mypassword"
 
   # Show image capacity
-  python cli.py info image.png
+  python app.py cli info image.png
 
   # Generate secure password
-  python cli.py generate-password
+  python app.py cli generate-password
         """
     )
 
